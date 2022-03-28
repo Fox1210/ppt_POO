@@ -60,9 +60,7 @@ public abstract class  Animal {
 	public void sonido() {
 		
 	}
-	public void reproducir() {
-		System.out.println("XXX");
-	}
+	
 	public void comer() {
 		System.out.println("ñam ñam");
 	}

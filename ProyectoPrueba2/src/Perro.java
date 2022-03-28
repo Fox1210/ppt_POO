@@ -5,7 +5,8 @@ public class Perro extends Animal {
 	private String color;
 
 	//Contructor
-	Perro(String raza, String color,String nombre, Sexo sexo) {
+	Perro(String raza, String color,
+			String nombre, Sexo sexo) {
 		super(nombre, sexo);
 		// TODO Auto-generated constructor stub
 	}
