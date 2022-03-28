@@ -32,6 +32,10 @@ public class Perro extends Animal {
 	public String toString() {
 		return "Perro [raza=" + raza + ", color=" + color + "]";
 	}
-	
+	// metodos
+	@Override
+	public void sonido() {
+		System.out.println("Guau guau guau");
+	}
 	
 }
